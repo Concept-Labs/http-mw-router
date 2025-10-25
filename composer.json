@@ -1,0 +1,29 @@
+{
+    "name": "concept-labs/http-mw-router",
+    "description": "(C)oncept-Labs HTTP Router Middleware",
+    "keywords": ["php","http", "router", "middleware"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viktor Halytskyi",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+        "concept-labs/http": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\Http\\Router": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "concept": {}
+    }
+
+}
