@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Concept\\Http\\Router": "src/"
+            "Concept\\Http\\Router\\": "src/"
         }
     },
     "require-dev": {
